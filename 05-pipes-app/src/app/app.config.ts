@@ -7,7 +7,7 @@ import { registerLocaleData } from '@angular/common';
 import localEs from '@angular/common/locales/es';
 import localFr from '@angular/common/locales/fr';
 
-import { LocaleService } from './pages/services/locale.service';
+import { LocaleService } from './services/locale.service';
 
 registerLocaleData(localEs,'es')
 registerLocaleData(localFr,'fr')
